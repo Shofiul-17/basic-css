@@ -1,0 +1,209 @@
+.div-1{
+    width: 90%;
+    height: 90vh;
+    background-image: url("../images/bird.jpeg");
+    background-repeat: no-repeat;
+    border: 3px solid red;
+}
+
+.div-2{
+    width: 90%;
+    height: 90vh;
+    background-image: url("../images/bird.jpeg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    border: 3px solid red;
+}
+
+.div-3{
+    width: 90%;
+    height: 90vh;
+    background-image: url("../images/bird.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid red;
+}
+
+.div-4{
+    width: 90%;
+    height: 90vh;
+    background-image: url("../images/bird.jpeg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    border: 3px solid red;
+}
+
+.div-5{
+    width: 90%;
+    height: 90vh;
+    background-image: url("../images/bird.jpeg");
+    background-repeat: no-repeat;
+    /* It will take 100px from left / right  & 400px from top/bottom */
+    background-position: 100px 400px;
+    border: 3px solid red;
+}
+
+.div-6{
+    width: 90%;
+    height: 90vh;
+    background-image: url("../images/bird.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border: 3px solid red;
+}
+
+.div-7{
+    width: 90%;
+    height: 90vh;
+    background-image: url("../images/bird.jpeg");
+    background-repeat: no-repeat;
+    background-position: 80%;
+    border: 3px solid red;
+}
+
+.div-8{
+    width: 90%;
+    height: 90vh;
+    background-image: url("../images/bird.jpeg");
+    background-repeat: no-repeat;
+    background-position: bottom 30px right 50px;
+    border: 3px solid red;
+}
+
+.div-9{
+    width: 90%;
+    height: 90vh;
+    background-image: url("../images/bird.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid red;
+}
+
+.div-10{
+    width: 90%;
+    height: 90vh;
+    background-image: url("../images/bird.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 3px solid red;
+}
+
+.div-11{
+    width: 90%;
+    height: 90vh;
+    background-image: url("../images/bird.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border: 3px solid red;
+}
+
+.div-12{
+    width: 90%;
+    height: 90vh;
+    background-image: url("../images/bird.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* It will take 90% from left / right  & 30% from top/bottom */
+    background-size: 90% 30%;
+    border: 3px solid red;
+}
+
+.div-13{
+    width: 90%;
+    height: 90vh;
+    background-image: url("../images/bird.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+    border: 3px solid red;
+}
+
+.div-14{
+    width: 90%;
+    height: 90vh;
+    /* NOTE: In the Background-image property if yeu mention two values then 1st value will be shows on the website (Here 1st value is linear-gradient) 
+    and 2nd value will NOT show. You need to adjust the gradient color to see both values on the website */
+    background-image: linear-gradient(red, black), url("../images/bird.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid red;
+    border-radius: ;
+}
+
+.div-15{
+    width: 90%;
+    height: 90vh;
+    /* NOTE: In the Background-image property if yeu mention two values then 1st value will be shows on the website (Here 1st value is linear-gradient) 
+    and 2nd value will NOT show. You need to adjust the gradient color to see both values on the website */
+    background-image: linear-gradient(rgba(255, 0, 0, 0.46), rgba(0, 0, 0, 0.496)), url("../images/bird.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid red;
+}
+
+.div-16{
+    width: 90%;
+    height: 90vh;
+    background-image: linear-gradient(45deg, red, black), url("../images/bird.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid red;
+}
+
+.div-17{
+    width: 90%;
+    height: 90vh;
+    background-image: linear-gradient(to top, red, black), url("../images/bird.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border: 3px solid red;
+} 
+
+.div-18{
+    width: 90%;
+    height: 90vh;
+    background-image: linear-gradient(to bottom, red, black), url("../images/bird.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid pink;
+} 
+
+.div-19{
+    width: 90%;
+    height: 90vh;
+    background-image: linear-gradient(to bottom, red 30px, pink, black, green), url("../images/bird.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid red;
+} 
+.div-20{
+    width: 90%;
+    height: 90vh;
+    background-image: url("../images/bird.jpeg"), linear-gradient(to bottom, red 30px, pink, black, green);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid red;
+    color: white;
+} 
+
+
+
+
+
+
+
+
+.hide{
+    display: none;
+}
